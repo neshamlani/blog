@@ -1,0 +1,36 @@
+.blog-wrapper {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.blog-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.author {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.content-wrap {
+  line-height: 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.blog-wrapper:last-child {
+  margin-bottom: 10px;
+}
+
+.blog-image {
+  width: 100%;
+  max-height: 200px;
+}
+
+.edit-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+}

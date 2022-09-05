@@ -1,0 +1,17 @@
+.show-title {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.show-author {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.show-content {
+  white-space: break-spaces;
+}
+
+.show-date {
+  font-weight: 700;
+}
