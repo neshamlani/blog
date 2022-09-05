@@ -22,6 +22,11 @@ const HomePage = () => {
   return (
     <Page>
       <div className="container-xl">
+        {blogData.length === 0 && (
+          <div className="d-flex justify-content-center mt-5 fs-1 fw-bold">
+            No Blogs available Please add a new blog
+          </div>
+        )}
         {blogData.length > 0 &&
           blogData.map((data) => <BlogViewer data={data} key={data.id} />)}
       </div>
